@@ -1,0 +1,97 @@
+  /* head差异化格式 */
+  body {
+      padding-top: 55px;
+  }
+
+  .head {
+      background-color: #fff;
+  }
+
+  /* 更改导航栏区域文字颜色 */
+  .nav ul li a {
+      color: #333;
+  }
+
+  .nav ul>li ul li>a {
+      color: #333;
+  }
+  /* 位置信息 */
+  .location {
+      height: 14px;
+      color: gray;
+      font-size: 14px;
+      margin: 20px auto 60px;
+  }
+
+  .location span {
+      color: red;
+  }
+
+.title-message{
+    height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    box-sizing: content-box;
+    padding-bottom: 50px;
+}
+.title-message h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.title-message span{
+    font: 12px;
+    color: gray;
+}
+
+.message-list{
+    width: 825px;
+    margin-top: 100px;
+}
+
+.message-list ul li{
+    margin-top: 50px;
+}
+
+.message-list ul li p{
+    font-size: 14px;
+    text-indent: 2em;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.message-list ul li .img{
+    width: 825px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.message-list ul li .img img{
+    width: 100%;
+    height: 100%;
+}
+/* 分页器 */
+.pager {
+    width: 160px;
+    height: 40px;
+    margin: 60px auto;
+}
+
+.pager ul li {
+    width: 24%;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    color: gray;
+}
+.pager ul li:hover{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pager ul .active {
+    background-color: red;
+    color: #fff;
+}

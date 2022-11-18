@@ -1,0 +1,70 @@
+/* head差异化格式 */
+body {
+    padding-top: 55px;
+}
+
+.head {
+    background-color: #fff;
+}
+
+/* 更改导航栏区域文字颜色 */
+.nav ul li a {
+    color: #333;
+}
+
+.nav ul>li ul li>a {
+    color: #333;
+}
+.banner {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/add.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner p {
+    text-align: center;
+    color: aliceblue;
+    line-height: 500px;
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-family: "华文隶书";
+}
+
+.address {
+    font-size: 14px;
+    color: #999;
+    margin-top: 75px;
+}
+
+.address span {
+    color: #E60012;
+}
+
+.navList {
+    width: 230px;
+    height: 45px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.navList .navListItem {
+    float: left;
+    width: 50%;
+    height: 100%;
+    line-height: 45px;
+    text-align: center;
+}
+
+.navList .navListItem:hover {
+    background-color: #E60012;
+    color: aliceblue;
+}
+
+.navList .navListItem:nth-child(2) {
+    background-color: #E60012;
+    color: aliceblue;
+}

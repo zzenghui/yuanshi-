@@ -1,0 +1,17 @@
+/* head差异化格式 */
+body {
+    padding-top: 55px;
+}
+
+.head {
+    background-color: #fff;
+}
+
+/* 更改导航栏区域文字颜色 */
+.nav ul li a {
+    color: #333;
+}
+
+.nav ul>li ul li>a {
+    color: #333;
+}

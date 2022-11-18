@@ -1,0 +1,169 @@
+  /* head差异化格式 */
+  body {
+      padding-top: 55px;
+  }
+
+  .head {
+      background-color: #fff;
+  }
+
+  /* 更改导航栏区域文字颜色 */
+  .nav ul li a {
+      color: #333;
+  }
+
+  .nav ul>li ul li>a {
+      color: #333;
+  }
+
+
+
+  .banner {
+      width: 100%;
+      height: 600px;
+  }
+
+  .banner img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .address {
+      margin-top: 60px;
+      color: #999;
+      font-size: 12px;
+  }
+
+  .address span {
+      color: #E60012;
+  }
+
+  .productnav {
+      width: 230px;
+      height: 40px;
+      margin: 30px auto 0;
+  }
+
+  .productnav .productnavitem {
+      float: left;
+      width: 50%;
+      height: 100%;
+      color: #999;
+      text-align: center;
+      line-height: 40px;
+  }
+
+  .productnav .productnavitem:hover {
+      background-color: #E60012;
+      color: aliceblue;
+  }
+
+  .productnavList {
+      width: 450px;
+      height: 20px;
+      font-size: 14px;
+      line-height: 20px;
+      margin: 35px auto 0;
+
+  }
+
+  .productnavList ul li {
+      color: #999;
+      float: left;
+  }
+
+  .productnavList ul li:nth-child(even) {
+      margin: 0 20px;
+  }
+
+  .productList {
+      display: flex;
+      justify-content: space-between;
+      align-content: space-between;
+      flex-wrap: wrap;
+      height: 1680px;
+      margin-top: 70px;
+  }
+
+  .productItem {
+      width: 275px;
+      height: 400px;
+      padding-top: 60px;
+      padding-left: 20px;
+      padding-right: 20px;
+      transition: all .2s;
+  }
+
+  .productItem:hover {
+      transform: translateY(-10px);
+      box-shadow: -1px -2px 5px 5px #ccc;
+      border-bottom: 1px solid red;
+  }
+
+  .productItem:hover h3 {
+      color: #E60012;
+  }
+
+  .productItem .img {
+      width: 100%;
+      height: 201px;
+      text-align: center;
+  }
+
+  .productItem h3 {
+      font-size: 18px;
+      margin-top: 30px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+  }
+
+  .productItem p {
+      color: #999;
+      font-size: 14px;
+      margin-top: 15px;
+  }
+
+  .productItem .buy {
+      text-align: right;
+      margin-top: 10px;
+  }
+
+  .productItem .buy a {
+      color: #E60012;
+  }
+
+  .page {
+      width: 160px;
+      height: 40px;
+      margin: 80px auto 0;
+  }
+
+  .page ul li {
+      float: left;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+  }
+
+  .page ul li:hover {
+      background-color: #E60012;
+
+  }
+
+  .page ul li:hover a {
+      color: aliceblue;
+  }
+
+  .page ul li:nth-child(1) {
+      background-color: red;
+  }
+
+  .page ul li:nth-child(1) a {
+      color: aliceblue;
+  }
+
+  .bottomline {
+      margin-top: 35px;
+      border-bottom: 1px solid #ccc;
+  }

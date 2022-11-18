@@ -1,0 +1,390 @@
+ /* head差异化格式 */
+ body {
+     padding-top: 55px;
+ }
+
+ .head {
+     background-color: #fff;
+ }
+
+ /* 更改导航栏区域文字颜色 */
+ .nav ul li a {
+     color: #333;
+ }
+
+ .nav ul>li ul li>a {
+     color: #333;
+ }
+
+   .address {
+       font-size: 14px;
+       color: #999;
+       margin-top: 75px;
+   }
+
+   .address span {
+       color: #E60012;
+   }
+
+   .addressbottomline {
+       width: 100%;
+       height: 1px;
+       border-bottom: 1px solid #ccc;
+       margin-top: 20px;
+   }
+
+   .histitle {
+       text-align: center;
+       margin-top: 60px;
+
+   }
+
+   .histitle h3 {
+       font-size: 24px;
+       color: #333;
+   }
+
+   .histitle p {
+       color: #999;
+       font-size: 12px;
+       margin-top: 30px;
+   }
+
+   .histitle .redline {
+       width: 40px;
+       border-bottom: 2px solid red;
+       margin: 30px auto 0;
+   }
+
+   .mainHis {
+       height: 2220px;
+       padding-top: 130px;
+       padding-bottom: 288px;
+       border-bottom: 1px solid #ccc;
+   }
+
+   .mainHis .hisLeft {
+       position: relative;
+       float: left;
+       width: 50%;
+       height: 100%;
+   }
+
+   .mainHis .hisRight {
+       float: right;
+       width: 50%;
+       height: 100%;
+       border-left: 1px solid red;
+   }
+
+   .hisRightItem1 {
+       width: 600px;
+       height: 100px;
+       border: 1px solid red;
+       margin-top: -100px;
+       margin-left: -80px;
+   }
+
+   .hisRightItem1 .img1 {
+       width: 126px;
+       height: 128px;
+       float: left;
+       margin-left: 20px;
+       margin-top: -40px;
+       text-align: center;
+       line-height: 128px;
+       color: aliceblue;
+       font-size: 26px;
+       background-image: url(../images/his1.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+
+   .hisRightItem1 .desc {
+       float: left;
+       margin-left: 20px;
+       margin-top: 20px;
+   }
+
+   .hisRightItem1 .desc p {
+       font-size: 14px;
+       color: #E60012;
+   }
+
+   .hisRightItem1 .desc h3 {
+       font-size: 18px;
+       margin-top: 10px;
+   }
+
+   .hisRightItem1 .img2 {
+       float: right;
+       margin-top: -30px;
+   }
+
+   .hisLeftItem1 {
+       width: 600px;
+       height: 100px;
+       border: 1px solid red;
+       margin-left: 70px;
+       margin-top: 190px;
+       background-color: #fff;
+   }
+
+   .hisLeftItem1 .img1 {
+       width: 126px;
+       height: 128px;
+       float: right;
+       background-image: url(../images/his3.png);
+       margin-top: -40px;
+       text-align: center;
+       line-height: 128px;
+       color: aliceblue;
+       font-size: 26px;
+   }
+
+   .hisLeftItem1 .desc {
+       float: right;
+       margin-right: 20px;
+       margin-top: 20px;
+   }
+
+   .hisLeftItem1 .desc h3 {
+       font-size: 18px;
+       margin-top: 10px;
+   }
+
+   .hisLeftItem1 .desc p {
+       font-size: 14px;
+       color: #E60012;
+       text-align: right;
+   }
+
+   .hisLeftItem1 .img2 {
+       float: left;
+       margin-top: -60px;
+       margin-left: -35px;
+   }
+
+   .hisRightItem2 {
+       width: 600px;
+       height: 100px;
+       border: 1px solid red;
+       margin-left: -80px;
+       margin-top: 510px;
+   }
+
+   .hisRightItem2 .img1 {
+       width: 126px;
+       height: 128px;
+       float: left;
+       margin-left: 20px;
+       margin-top: -40px;
+       text-align: center;
+       line-height: 128px;
+       color: aliceblue;
+       font-size: 26px;
+       background-image: url(../images/his5.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+
+   .hisRightItem2 .desc {
+       float: left;
+       margin-left: 20px;
+       margin-top: 20px;
+   }
+
+   .hisRightItem2 .desc p {
+       font-size: 14px;
+       color: #E60012;
+   }
+
+   .hisRightItem2 .desc h3 {
+       font-size: 18px;
+       margin-top: 10px;
+   }
+
+   .hisRightItem2 .img2 {
+       float: right;
+       margin-top: -110px;
+   }
+
+
+   .hisLeftItem2 {
+
+       width: 600px;
+       height: 100px;
+       border: 1px solid red;
+       margin-left: 70px;
+       margin-top: 540px;
+       background-color: #fff;
+   }
+
+   .hisLeftItem2 .img1 {
+       width: 126px;
+       height: 128px;
+       float: right;
+       background-image: url(../images/his7.png);
+       background-repeat: no-repeat;
+       margin-top: -40px;
+       text-align: center;
+       line-height: 128px;
+       color: aliceblue;
+       font-size: 26px;
+   }
+
+   .hisLeftItem2 .desc {
+       float: right;
+       margin-right: 20px;
+       margin-top: 20px;
+   }
+
+   .hisLeftItem2 .desc h3 {
+       font-size: 18px;
+       margin-top: 10px;
+   }
+
+   .hisLeftItem2 .desc p {
+       font-size: 14px;
+       color: #E60012;
+       text-align: right;
+   }
+
+   .hisLeftItem2 .img2 {
+       float: left;
+       margin-top: -60px;
+       margin-left: -35px;
+   }
+
+   .hisRightItem3 {
+       width: 600px;
+       height: 100px;
+       border: 1px solid red;
+       margin-left: -80px;
+       margin-top: 475px;
+   }
+
+   .hisRightItem3 .img1 {
+       width: 126px;
+       height: 128px;
+       float: left;
+       margin-left: 20px;
+       margin-top: -40px;
+       text-align: center;
+       line-height: 128px;
+       color: aliceblue;
+       font-size: 26px;
+       background-image: url(../images/his5.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+
+   .hisRightItem3 .desc {
+       float: left;
+       margin-left: 20px;
+       margin-top: 20px;
+   }
+
+   .hisRightItem3 .desc p {
+       font-size: 14px;
+       color: #E60012;
+   }
+
+   .hisRightItem3 .desc h3 {
+       font-size: 18px;
+       margin-top: 10px;
+   }
+
+   .hisRightItem3 .img2 {
+       float: right;
+       margin-top: -110px;
+   }
+
+   .hisLeftItem3 {
+       width: 600px;
+       height: 100px;
+       border: 1px solid red;
+       margin-left: 70px;
+       margin-top: 536px;
+       background-color: #fff;
+   }
+
+   .hisLeftItem3 .img1 {
+       width: 126px;
+       height: 128px;
+       float: right;
+       background-image: url(../images/his8.png);
+       background-repeat: no-repeat;
+       margin-top: -40px;
+       text-align: center;
+       line-height: 128px;
+       color: aliceblue;
+       font-size: 26px;
+   }
+
+   .hisLeftItem3 .desc {
+       float: right;
+       margin-right: 20px;
+       margin-top: 20px;
+   }
+
+   .hisLeftItem3 .desc h3 {
+       font-size: 18px;
+       margin-top: 10px;
+   }
+
+   .hisLeftItem3 .desc p {
+       font-size: 14px;
+       color: #E60012;
+       text-align: right;
+   }
+
+   .hisLeftItem3 .img2 {
+       float: left;
+       margin-top: -160px;
+       margin-left: -35px;
+   }
+
+   .hisRightItem4 {
+       width: 600px;
+       height: 100px;
+       border: 1px solid red;
+       margin-left: -80px;
+       margin-top: 615px;
+   }
+
+   .hisRightItem4 .img1 {
+       width: 126px;
+       height: 128px;
+       float: left;
+       margin-left: 20px;
+       margin-top: -40px;
+       text-align: center;
+       line-height: 128px;
+       color: aliceblue;
+       font-size: 26px;
+       background-image: url(../images/his5.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+
+   .hisRightItem4 .desc {
+       float: left;
+       margin-left: 20px;
+       margin-top: 20px;
+   }
+
+   .hisRightItem4 .desc p {
+       font-size: 14px;
+       color: #E60012;
+   }
+
+   .hisRightItem4 .desc h3 {
+       font-size: 18px;
+       margin-top: 10px;
+   }
+
+   .hisRightItem4 .img2 {
+       float: right;
+       margin-top: -110px;
+   }

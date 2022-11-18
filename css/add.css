@@ -1,0 +1,169 @@
+/* head差异化格式 */
+body {
+    padding-top: 55px;
+}
+
+.head {
+    background-color: #fff;
+}
+
+/* 更改导航栏区域文字颜色 */
+.nav ul li a {
+    color: #333;
+}
+
+.nav ul>li ul li>a {
+    color: #333;
+}
+
+  .banner {
+      width: 100%;
+      height: 600px;
+      background-image: url(../images/add.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+  }
+
+  .banner p {
+      text-align: center;
+      color: aliceblue;
+      line-height: 500px;
+      font-size: 60px;
+      letter-spacing: 5px;
+      font-family: "华文隶书";
+  }
+
+  .address {
+      font-size: 14px;
+      color: #999;
+      margin-top: 75px;
+  }
+
+  .address span {
+      color: #E60012;
+  }
+
+  .navList {
+      width: 230px;
+      height: 45px;
+      margin: 0 auto;
+      font-size: 18px;
+      margin-top: 40px;
+  }
+
+  .navList .navListItem {
+      float: left;
+      width: 50%;
+      height: 100%;
+      line-height: 45px;
+      text-align: center;
+  }
+
+  .navList .navListItem:hover {
+      background-color: #E60012;
+      color: aliceblue;
+  }
+
+  .navList .navListItem:nth-child(1) {
+      background-color: #E60012;
+      color: aliceblue;
+  }
+
+  .food {
+      margin-top: 85px;
+  }
+
+  .food h2 {
+      color: #E60012;
+      font-size: 20px;
+      text-align: center;
+  }
+
+  .food p {
+      font-size: 14px;
+      color: #999;
+      width: 540px;
+      margin: 0 auto;
+      text-align: center;
+      text-indent: 1em;
+      margin-top: 70px;
+      line-height: 40px;
+  }
+
+  .food h3 {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 18px;
+      color: #E60012;
+  }
+
+  .advertiseTitle h2 {
+      font-size: 26px;
+      margin-top: 100px;
+  }
+
+  .advertise {
+      height: calc(350px*3);
+      margin-top: 30px;
+  }
+
+  .advertise .advertiseItem {
+      width: 100%;
+      height: 30%;
+      border-bottom: 1px solid grey;
+  }
+
+  .advertise .advertiseItem:nth-child(n+1) {
+      padding-top: 30px;
+  }
+
+  .advertise .advertiseItem .advertiseItemtitle {
+      font-size: 18px;
+      margin-bottom: 25px;
+  }
+
+  .advertise .advertiseItem .advertiseItemdesc {
+      float: left;
+      width: 50%;
+      font-size: 14px;
+      color: #999;
+  }
+
+  .advertise .advertiseItem .advertiseItemdesc p {
+      line-height: 30px;
+  }
+
+  .advertise .advertiseItem .advertiseItemdesc p:nth-child(1) {
+      font-size: 18px;
+  }
+
+  .advertise .advertiseItem .advertiseItemneed {
+      float: right;
+      width: 50%;
+      font-size: 14px;
+      color: #999;
+  }
+
+  .advertise .advertiseItem .advertiseItemneed p {
+      line-height: 30px;
+  }
+
+  .advertise .advertiseItem .advertiseItemneed p:nth-child(1) {
+      font-size: 18px;
+  }
+
+  .advertiseAddress {
+      padding-top: 30px;
+  }
+
+  .advertiseAddress h3 {
+      font-size: 26px;
+      margin-bottom: 25px;
+  }
+
+  .advertiseAddress p {
+      color: #999;
+      font-size: 14px;
+      line-height: 30px;
+  }
